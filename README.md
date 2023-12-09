@@ -81,6 +81,7 @@ Describe the type of outputs Animyth can generate, and provide examples.
 
 ## Evaluation
 Discuss both qualitative and quantitative evaluation methods used to assess the generated sprite sheets.
+[Evaluation Metrics](https://docs.google.com/spreadsheets/d/1fvtAMdXq1YJcjQeL_ZWMFmV4DXp12xBkmylsal35dFg/edit?usp=sharing)
 
 Example:
 
