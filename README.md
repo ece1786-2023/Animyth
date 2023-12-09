@@ -39,10 +39,10 @@ A pixel-styled sprite sheet of a boy wearing white hoodie and black shorts, run
 
 The input is processed by GPT4 API into a tag-like output
 ```
-pixel,pixel art,pixelart,xiangsu,xiang su, full body,(((solid background))),1boy, side view, masterpiece,best,quality, white hoodie, black shorts, run
+pixel,pixel art,pixelart,xiangsu,xiang su, full body,(solid background:2),1boy, side view, masterpiece,best,quality, white hoodie, black shorts, run
 ```
 
-Then, this tag-like input will be passed into stable diffusion webui for sprite sheet generation.
+Then, this tag-like input will be passed into stable diffusion webui for text to image generation.
 
 Meanwhile, the webui enables the ControlNet extension for character pose estimation from the selected prepared sprite sheet template for the corresponding action.
 
@@ -54,7 +54,7 @@ This is my input example
  'A pixel-styled sprite sheet of a boy wearing white hoodie and black shorts, run' 
 
  output should look like 
-'pixel,pixel art,pixelart,xiangsu,xiang su, full body,(((solid background))),1boy, side view, masterpiece,best,quality, white hoodie, black shorts, run'
+'pixel,pixel art,pixelart,xiangsu,xiang su, full body,(solid background:2),1boy, side view, masterpiece,best,quality, white hoodie, black shorts, run'
 
 You may add your own tags to enhance the appearance of the character like the colour of hair or clothes.
 
