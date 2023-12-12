@@ -22,7 +22,20 @@ Before you begin, ensure you have met the following requirements:
 Make sure to install and set up these resources as they are integral to the functioning of the Animyth project.
 
 ### Installation
-Provide step-by-step instructions on how to get a development environment running.
+#### Setup Text-to-Image block
+- Clone [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/dev)
+- Download [AAM Anylora Anime Mix Model](https://civitai.com/models/84586/aam-anylora-anime-mix-anime-screencap-style-model) and [Pixel LoRA](https://civitai.com/images/3615104)
+- Follow instructions in Stable Diffusion Web UI repo to put the downloaded models in the right directory
+- Follow [this](https://github.com/Mikubill/sd-webui-controlnet) to install ControlNet extention to the Stable Diffusion Web UI
+- Download the OpenPose model from [ControlNet v1.1 on Hugging Face](https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main) and put into the right directory (follow instructions [here](https://github.com/Mikubill/sd-webui-controlnet))
+- 
+
+#### Setup Text Processing Block GPT4 (To be improved)
+- Clone this repo
+- Modify text descriptions in GPT4-Prompt-Engineering sprite_sheet_input.csv and then open 'Tag Generator.ipynb'
+- Change to your own GPT4 APIKey, and run
+- The generated tags will be save in the 'out_sentences.csv'
+- One may manually put the tags into the positive prompt text box inside the WebUI
 
 ## How Animyth Works
 Explain how to use Animyth, including how to input descriptions and generate sprite sheets.
